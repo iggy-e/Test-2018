@@ -2,45 +2,84 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>CSS color</title>
+    <title>color!</title>
 
-    <style media="screen">
-    /*select ALL h1 elements (but there is only 1)*/
-    h1 {
-      color: rgb(255, 0, 0);
+    <style>
+    /* Now we are in css world
+    in-between the style tages */
+
+    /* command+shift+c = color picker */
+
+    *{
+      background-color: #1e90ff;
+    }
+
+
+    h1 marquee{
+      color: honeydew;
+      background-color: darkgoldenrod;
+    }
+
+    h2{
+color: rgb(150,0,150);
+background-color: rgb(50, 70, 0);
+    }
+
+    section{
+      background-color: rgba(241, 239, 23, 0.5);
     }
 
     p{
-      background-color: rbg(20, 90,78);
-color: rgb(150,100,0);
-    }
-    /*<!-- not a comment yet -->*/
-    /*select and ID and style it */
-
-    #cool{
-      background-color: rgb(20, 90,78);
-      color: rgb(150, 150,0);
-
-      font-size: 30px;
+      background-color: deeppike;
     }
 
-    #more{
-      background-color:rgb(237, 121, 0);
-      font-size: 60px;
+    #pretty{
+      background-color: green;
     }
-    /*select ONLY the hi elements named "more"
-    notice it has the same font color as the other h1 */
+    /* select an element in the with its id using # and id name */
 
+.cool{
+  background-color: #00ced1;
+}
 
-    </style>
-  </head>
+</style>
 
+<head>
   <body>
-    <h1>Quick Color</h1>
-    <h1 id="more">more color</h1>
+    <h1><marquee>Color!Color!Color!</marquee>
+      <marquee scrollamount="3000">Color!Color!Color!</marquee>
+      <marquee direction="right"
+      scrollamount="300">Color!Color!Color!</marquee>
+      <marquee scrollamount="1000">Color!Color!Color!</marquee>
 
-    <p id="cool">
-      <!-- do <p id> to select certain things and change color-->
+    </h1>
 
-  </body>
+      <h2>There are different ways to add color to our page </h2>
+
+      <section>
+        <p>
+        Tart donut halvah sesame snaps lollipop bear claw sweet tiramisu marshmallow. Biscuit carrot cake cake dessert topping pastry fruitcake. Soufflé jelly cotton candy sweet roll jujubes carrot cake danish. Topping lemon drops gummies dragée dragée croissant liquorice. Topping croissant danish cookie. Candy canes tootsie roll ice cream cake halvah tootsie roll. Pudding halvah tart gingerbread gummies. Cotton candy gingerbread candy canes croissant jelly-o carrot cake gingerbread. Brownie fruitcake bear claw sugar plum lollipop cake jelly beans caramels. Bonbon brownie cake pudding caramels fruitcake.
+      </p>
+
+        <p class="cool"> <!--give this element class name-->
+        Tiramisu dessert macaroon tart candy canes halvah jelly beans toffee tootsie roll. Chupa chups gingerbread bear claw chupa chups jujubes tiramisu gingerbread. Chocolate bar gingerbread lollipop. Halvah macaroon marzipan. Pastry candy sesame snaps topping. Carrot cake cake halvah brownie soufflé sugar plum jujubes. Dessert oat cake pie donut jujubes ice cream sweet brownie croissant. Bear claw tart tart gingerbread cake. Caramels marzipan cookie gummies carrot cake gummies. Ice cream muffin chocolate fruitcake halvah chupa chups cheesecake.
+      </p>
+
+        <p id"pretty"><!--give this a <p> its very own id-->
+  Pastry ice cream candy tootsie roll sweet roll chupa chups bonbon brownie. Muffin icing croissant halvah. Jelly sesame snaps toffee sweet pastry. Toffee cotton candy tootsie roll pudding chocolate cake. Tart tiramisu wafer sweet roll dessert fruitcake donut cheesecake chocolate. Soufflé lollipop halvah danish tootsie roll chupa chups.
+</p>
+      </section>
+
+      <section>
+        <p>Caramels caramels bear claw tart fruitcake dessert. Gummies ice cream cupcake bonbon pastry cupcake. Gingerbread chocolate bar dessert. Cake cheesecake icing sweet jelly beans pudding cookie tiramisu brownie. Dessert candy sugar plum tootsie roll chocolate bar muffin candy. Sweet roll danish pastry tart. Cake toffee tiramisu lollipop sesame snaps tiramisu. Carrot cake powder brownie liquorice oat cake gingerbread sesame snaps. Cookie macaroon tootsie roll jelly croissant muffin jelly beans icing. Oat cake fruitcake apple pie. Candy candy cheesecake chocolate cake. Jelly-o lollipop caramels caramels jelly-o.
+        </p>
+
+        <p>Icing gingerbread cupcake jujubes cheesecake cake sugar plum gummi bears topping. Dessert donut danish muffin apple pie dessert brownie marzipan tiramisu. Sweet dragée tootsie roll brownie jujubes chupa chups jelly-o. Jelly-o gingerbread cheesecake sweet gummies lollipop croissant muffin dessert. Dessert biscuit dessert sweet chocolate cake. Cookie dragée apple pie sugar plum. Gummies ice cream wafer jelly-o powder chocolate bar caramels pastry. Wafer jelly beans pie topping pie donut ice cream. Cake lemon drops jelly-o sugar plum bear claw croissant. Gummies pastry jelly beans. Caramels tart sesame snaps lollipop macaroon apple pie carrot cake cake chocolate cake. Bear claw gummi bears marzipan chocolate bar pastry gummi bears marshmallow.
+        </p>
+
+        <p>Soufflé chocolate cake tootsie roll. Marshmallow cake pastry liquorice pudding sugar plum lollipop. Cupcake cake soufflé candy chocolate bar powder tiramisu. Toffee powder ice cream danish toffee fruitcake. Pie brownie croissant chocolate bar jelly marshmallow soufflé. Caramels marzipan soufflé halvah ice cream soufflé muffin carrot cake jelly. Jelly beans liquorice soufflé marzipan chocolate bar jelly beans. Croissant pudding jelly beans. Gingerbread macaroon candy canes toffee jelly-o brownie cake sweet roll candy. Caramels jelly soufflé halvah jelly-o candy canes chupa chups chocolate bar. Muffin sesame snaps muffin marshmallow pie oat cake bear claw. Danish sesame snaps icing cookie bear claw. Tart lemon drops wafer croissant topping icing. Brownie danish croissant gummi bears topping brownie chocolate bar marshmallow.
+        </p>
+      </section>
+
+      <footer><marquee direction="up"> &copy AJW </marquee> </footer>
 </html>
