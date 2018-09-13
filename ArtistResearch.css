@@ -1,0 +1,82 @@
+body{
+    background: linear-gradient(to bottom right, #FFFFFF, #BFE6FF);
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    font-family: "Palatino", sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 200;
+    font-size: 50px;
+
+}
+.main{
+    margin: 1%;
+    background-color: rgba(0, 0, 0, 0);
+    color:black;
+}
+p{
+    font-family: Helvetica;
+    margin: 1%;
+    font-weight: 100;
+}
+.header-img{
+    position: relative;
+    width: 95%;
+    height: 250px;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+
+}
+.header{
+    font-size: 24px;
+    font-family: Helvetica;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    text-align: center;
+    font-weight: 100;
+    margin: 1%;
+}
+{
+    box-sizing: border-box;
+}
+
+.column1, .column2, .column3 {
+    float: left;
+    width: 31.3%;
+    margin: 1%;
+}
+.column3 {
+    margin-right: 0%;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+.A{
+    margin:1%;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+
+}
+.side{
+    margin: 1%;
+    width: 51.3%;
+
+}
+.img{
+    background-image: url(http://entertainmentvoice.com/wp-content/uploads/2016/02/HitoSteyerl_Feature4.jpg);
+    background-size: cover;
+    background-position: center;
+    height:70%;
+}
