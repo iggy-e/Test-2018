@@ -1,0 +1,78 @@
+#image-1{
+    position: relative;
+    margin: 100px;
+/*    border: 2px solid red;*/
+    transition: transform 3s linear;
+    z-index: 1;
+}
+
+#image-1:hover{
+    transform: scale(1.2, 2.5);
+}
+#text-1{
+    color:white;
+    font-size: 200px;
+    text-shadow: 2px 2px 2px red;
+    transition: text-shadow 2s ease;
+}
+#text-1:hover{
+    text-shadow: 15px 10px 25px blue, 10px 20px 25px yellow;
+    letter-spacing: 100px;
+}
+#image-2{
+    position: relative;
+    right:250px;
+    z-index: -2;
+}
+#image-3{
+    background-color: deeppink;
+        border-radius: 100%;
+    transition: all 4000ms ease;
+}
+#image-3:active{
+    transform: skewX(8000deg);
+    transform: perspective(300px) translateZ(280px);
+}
+#image-4{
+    transition: all 1s ease-in-out;
+    transform: rotateX(360deg) 5s;
+    
+}
+
+#image-4:active{
+ /*active is when you click something*/
+    transform: perspective(300px) rotateX(720deg) rotateY(310deg);
+}
+
+
+
+/*
+ transiton will happen on a :hover 
+#image-1 {
+    margin: 100px;
+    transition: transform 1s ease-in;
+
+}
+
+#image-1:hover {
+    transform: scale(2, 1.5);
+}
+
+#text-1 {
+    font-size: 200px;
+    color: white;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 2px red;
+    transition: all 1s ease-in-out;
+
+}
+
+#text-1:active {
+    text-shadow: 10px 15px 20px blue, -10px -15px 20px yellow ;
+    letter-spacing: 15px;
+}
+
+#image-3 {
+    background-color: rgba(0, 100, 100, 0.3);
+}
+*/

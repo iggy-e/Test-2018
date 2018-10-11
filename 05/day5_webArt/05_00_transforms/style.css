@@ -1,0 +1,80 @@
+body {
+    background-color: skyBlue;
+}
+div {
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+/*
+    margin-left: 100px;
+    margin-bottom: 100px;
+*/
+    background-color: red;
+}
+
+/*    text-align: center;*/
+
+#box-1{
+        background-color: seagreen;
+        transform: rotate(-380deg);
+        /*negative rotate values turn counter clockwise while positive turns clockwise*/
+    }
+#box-2{
+        background-color: orange;
+        transform: skewX(27deg);
+/*    skew x and y will skew on x and y axies    */
+    }
+#box-3{
+    background-color: violet;
+    transform: skewY(27deg);
+}
+#box-4{
+    background-color: thistle;
+/*multiple transforms in one line*/
+    transform: scale(.7, 2.3)
+    skewX(67deg) translate(120px, 17px);
+/*    scale (x, y)*/
+}
+#box-5{
+    background-color: rgba(225, 0, 0, 0.4);
+    transform: translate(50px, -200px)
+        skewX(67deg);
+    
+}
+#box-6{
+    transform: skewX(-40deg) translate(120px, 30px) scale(2, 3.7) skewY(20deg);
+    background-color: rgba(162,0,255, .5);
+}
+#box-7{
+    transform: perspective(100px) rotateY(30deg) rotateX(600deg);
+    background-color: #00D6B2;
+    
+}
+/*
+}
+
+#box-1{
+    background-color: green;
+    margin-top: 100px;
+    transform: rotate(30deg) scale(1, 1);
+}
+
+#box-2 {
+    background-color: orange;
+    transform: skewY(31deg);
+}
+
+#box-3 {
+    background-color: lavender;
+    transform: rotatez(80deg);
+}
+
+#box-4 {
+    transform: translate(50px, -250px) skew(10deg, -50deg);
+}
+
+#box-5 {
+    background-color: thistle;
+    transform: perspective(30px) rotateY(30deg);
+}
+*/
