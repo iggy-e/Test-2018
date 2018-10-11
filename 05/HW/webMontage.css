@@ -53,6 +53,7 @@ body{
 }
 .footer{
     grid-area: f;
+    text-align: center;
 }
 .content1, .content2, .content3{
     font-family:  'Ovo', serif;
