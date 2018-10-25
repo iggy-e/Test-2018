@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>working on a bookmarklet</title>
+  </head>
+  <body>
+      <h1>bookmarklet</h1>
+      <button type="button" name="button" onclick="fly()">click on me to fly</button>
+
+      <p>
+
+      this is a link but it is really <a href="javascript:document.body.contentEditable = 'true'; document.designMode='on'; void 0">javascript</a>
+
+      </p>
+
+      <script>
+      function fly(){
+
+//          named function
+          alert("zoom, weee, bang, crash!");
+
+      }
+
+//        self invoking function
+          // (function () {
+          //
+          //     alert("This is your automaniac alert");
+
+          // } ) ();
+
+      </script>
+
+  </body>
+</html>
