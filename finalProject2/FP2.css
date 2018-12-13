@@ -1,0 +1,307 @@
+/*----span style----*/
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c|Montserrat');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+html{
+    font-family:'Montserrat', sans-serif;
+    font-weight: 100%;
+}
+body{
+    width: 60%;
+    margin: auto;
+/*    background-image: url(Images/geometry2.png);*/
+/*    background-color: rgb(48,46,51);*/
+    background-position: top;
+    background-size: auto;
+    background-repeat: repeat;
+}
+.blue{
+    color: #027BFF;
+}
+h1{
+    font-size: 40px;
+    font-weight: 400;
+    color: #17191A;
+}
+h2{
+    font-size: 35px;
+    font-weight: 400;
+    color: #17191A;
+}
+h5{
+    font-size: 20px;
+    margin-top: 10px;
+    color: #17191A;
+}
+p{
+    color: #8F9EA5;
+    opacity: 0.8;
+    font-weight: 100;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+/*----------nav-----------*/
+.nav{
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+.contactMe, .navIcons{
+    flex: 1;
+}
+.navIcons{
+    text-align: right;
+}
+.navIcons a, .contactMe a, .contactMe img{
+    display: inline-block;
+    vertical-align: middle;
+}
+.navIcons a{
+    margin-left: 40px;
+}
+.contactMe a{
+    color: #027BFF;
+    text-decoration: none;
+}
+
+#FAQ{
+    color: #027BFF;
+    text-decoration: none;
+}
+
+.contactMe img{
+    margin-right: 10px;
+    width: 50px;
+}
+.navIcons img{
+    height: 40px;
+}
+
+/*----landing----*/
+.landing{
+    height: 100vh;
+    position: relative;
+}
+.landingWrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+ul {
+    list-style: none;
+    margin-top: 30px;
+    line-height: 30px;
+}
+.landingL{
+    margin-top: 4em;
+    margin-right: 4em;
+}
+.scroll{
+    position: absolute;
+    bottom: 180px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.landingR img{
+    width: 200px;
+    border-radius: 50%;
+    position: static;
+    border-style: solid;
+    border-width: 2px;
+    border-color: whitesmoke;
+}
+.imageBg {
+    display: block;
+    background-color: rgba(0, 123, 255, 0.4);
+    position: relative;
+    width: 230px;
+    height: 230px;
+    border-radius: 46%;
+    right: 5%;
+    bottom: 220px;
+    z-index: -1;
+    animation: rotate 5s linear infinite;
+}
+@keyframes rotate{
+    100%{ transform: rotate(360deg);}
+}
+
+/*----programs----*/
+
+.programs{
+    text-align: center;
+    margin-bottom: 20em;
+}
+.programs p{
+    margin-bottom: 30px;
+}
+.programs img{
+    width: 60px;
+    margin: 0 15px;
+}
+/*----work----*/
+
+
+#paperCanvas {
+    
+    width: 100%;
+    height: 100%;
+/*    position: absolute;*/
+    bottom: 0;
+    z-index: -2;
+    position: fixed;
+    color: fuchsia;
+    right: 0;
+}
+.diamondGrid{
+    width: 110%;
+    margin: 20px auto 0;
+}
+.item{
+    width: 220px;
+    height: 220px;
+    background: #000000;
+    transition: 0.5s;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.item:hover{
+    opacity: 1;
+}
+.item img{
+    position:absolute;
+    top:50%;
+    left: 0;
+    transform: translateY(-50%) scale(1.5);
+    width:100%;
+}
+@media (max-width: 767px){
+        .diamondGrid
+    {
+        width: 110%;
+        margin: 0 auto;
+    }
+}
+.lightbox{
+    display: none;
+    
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+}
+
+.lightbox img{
+    
+    max-width: 90%;
+    max-height: 80%;
+    margin-top: 2%;
+    
+}
+.lightbox target{
+    
+    outline: none;
+    display: block;
+}
+
+
+
+
+/*
+.work{
+    width: 100%;
+    position: relative;
+    margin-bottom: 20em;
+}
+.work > .workText{
+    position: absolute;
+    top: 85;
+    
+}
+
+.work > .workText > .underline{
+    display: block;
+    background-color: #027BFF;
+    height: 3px;
+    width: 61px;
+    margin-top: 5px;
+}
+.work > .workImg{
+    width: 85%;
+    float: right;
+    -webkit-box-shadow: 0px 3px 70px 0px rgba(23,39,36,0.96);
+    -moz-box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
+    box-shadow: 0px 3px 70px 0px rgba(23,30,36,0.06);
+}
+.work ul{
+    position: absolute;
+    bottom: 0;
+    right: 86%;
+}
+.work ul li{
+    margin-top: 20px;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+@import url('https://fonts.googleapis.com/css?family=Armata|Secular+One');
+body{
+    
+    font-family: armata, sans-serif;
+    
+}
+#content{
+    grid-area: content;
+}
+#sidebar{
+    grid-area: sidebar;
+    background-color: linear-gradient(to right,
+                rgba(249,107,142,1),
+                rgba(218,103,230,1),
+                rgba(130,125,230,1));
+                justify-content: center;
+}
+#container{
+    font-size: 1.5em;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+        "sidebar"
+        "content"
+        "stuff";
+    grid-template-columns: 1fr;
+    grid-template-rows: 130px 800px 250px;
+}*/
