@@ -89,6 +89,7 @@ h4{
 }
 p:nth-child(){
     text-align: center;
+    line-height: 10%;
 }
 .FB{
     position: absolute;
