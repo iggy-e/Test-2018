@@ -158,7 +158,7 @@ ul {
 
 
 #paperCanvas {
-    
+
     width: 100%;
     height: 100%;
 /*    position: absolute;*/
@@ -199,7 +199,7 @@ ul {
 }
 .lightbox{
     display: none;
-    
+
     position: fixed;
     z-index: 999;
     width: 100%;
@@ -211,14 +211,14 @@ ul {
 }
 
 .lightbox img{
-    
+
     max-width: 90%;
     max-height: 80%;
     margin-top: 2%;
-    
+
 }
 .lightbox target{
-    
+
     outline: none;
     display: block;
 }
@@ -235,7 +235,7 @@ ul {
 .work > .workText{
     position: absolute;
     top: 85;
-    
+
 }
 
 .work > .workText > .underline{
@@ -278,9 +278,9 @@ ul {
 /*
 @import url('https://fonts.googleapis.com/css?family=Armata|Secular+One');
 body{
-    
+
     font-family: armata, sans-serif;
-    
+
 }
 #content{
     grid-area: content;
@@ -298,7 +298,7 @@ body{
     width: 100%;
     height: 100vh;
     display: grid;
-    grid-template-areas: 
+    grid-template-areas:
         "sidebar"
         "content"
         "stuff";
